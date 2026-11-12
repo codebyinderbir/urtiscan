@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Local data: patient photos and the database never go in git
+data/
+*.db
+
+# Model weights (tracked separately, e.g. with DVC)
+*.pt
+*.onnx
+
+.DS_Store
+.env

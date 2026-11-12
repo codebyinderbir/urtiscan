@@ -1,0 +1,2 @@
+# Only needed for the YOLO-seg detector and for training.
+ultralytics>=8.3
